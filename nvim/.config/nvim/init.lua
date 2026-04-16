@@ -1,9 +1,11 @@
 vim.loader.enable()
 
+-- core config
 require 'config.options'
 require 'config.keymaps'
 require 'config.pack'
 
+-- plugin configs
 require 'plugins.colorscheme'
 
 require 'plugins.which-key'
