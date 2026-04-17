@@ -35,3 +35,5 @@ require 'plugins.render-markdown'
 require 'plugins.copilot'
 
 require 'plugins.claudecode'
+
+require 'plugins.undotree'
