@@ -16,7 +16,8 @@ require('conform').setup {
     javascript = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
     typescript = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
     typescriptreact = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
-    markdown = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
+    markdown = { 'prettierd', 'prettier', stop_after_first = true },
+    python = { 'ruff_organize_imports', 'ruff_format' },
   },
 }
 
